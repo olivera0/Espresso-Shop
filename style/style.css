@@ -1,7 +1,5 @@
 * {
     margin: 0;
-    /* background-color: 	#eac29a; */
-    /* scrollbar-width:none; */
 }
 
 ::-webkit-scrollbar {
@@ -14,11 +12,6 @@ body {
     color: white;
 
 }
-
-/* za pozadinu 	#eac29a
-za text #bf8f5e
-za hover #a37854
- */
 nav {
     background-color: #bf8f5e;
     position: sticky;
@@ -60,9 +53,7 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* filter: blur(2px); */
     height: 90vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,10 +68,6 @@ nav ul li a:hover {
 }
 
 .knjizara {
-    /* height: 90vh; */
-    /* padding-top: 10%;
-    padding-left: 20%;
-    padding-right: 20%; */
     padding: 10% 20%;
     background: rgb(234, 194, 154);
     background: linear-gradient(0deg, rgba(234, 194, 154, 1) 0%, rgba(191, 143, 94, 1) 100%);
@@ -107,8 +94,6 @@ nav ul li a:hover {
 }
 .coffee-animation{
     position: absolute;
-    /* width: 50px;
-    height: 50px; */
     animation: coff 5s infinite alternate-reverse;
     animation-timing-function: ease-in-out;
 }
@@ -247,8 +232,6 @@ footer {
     box-shadow: 15px 10px 10px #eac29a;
     background-color: rgba(191, 143, 94, 0.5);
 }
-
-/* Kontakt strana */
 
 .hero-image-knt {
     background-image: url(../img/hero.jpg);
